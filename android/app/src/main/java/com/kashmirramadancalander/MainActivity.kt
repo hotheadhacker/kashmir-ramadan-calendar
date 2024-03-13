@@ -1,4 +1,4 @@
-package com.kashmirramadancalander
+package dev.isalman.kashmirramadancalander
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

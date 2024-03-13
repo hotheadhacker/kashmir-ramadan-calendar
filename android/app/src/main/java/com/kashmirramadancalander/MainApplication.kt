@@ -1,4 +1,4 @@
-package com.kashmirramadancalander
+package dev.isalman.kashmirramadancalander
 
 import android.app.Application
 import com.facebook.react.PackageList
