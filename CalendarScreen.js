@@ -45,10 +45,10 @@ const CalendarScreen = () => {
         items={agendaData}
         renderItem={(item) => {
           return (
-            <View style={{ padding: 20 }}>
-              <Text>Day: {item.day}</Text>
-              <Text>Iftar: {item.iftar} AM</Text>
-              <Text>Sahar: {item.sehri} PM</Text>
+            <View style={{ padding: 20, backgroundColor: '#d7dde0', margin: 10, borderRadius: 10 }}>
+              <Text style={{color: 'orange', fontSize: 17}}>Day: {item.day}</Text>
+              <Text style={{color: 'black', fontSize: 20, fontStyle: 'italic'}}>Sahar: {item.sehri} AM</Text>
+              <Text style={{color: 'black', fontSize: 20, fontStyle: 'italic'}}>Iftar: {item.iftar} PM</Text>
             </View>
           );
         }}
